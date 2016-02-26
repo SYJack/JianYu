@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/tv_sendTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="3dp"
+        android:text="12:12:12"
+        android:textColor="@color/textInfo"
+        android:textSize="10sp" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="4dp"
+        android:orientation="horizontal">
+
+        <com.jack.jianyu.widget.XCRoundImageView
+            android:id="@+id/image_tuling"
+            style="@style/user_face_image"
+            android:contentDescription="@null"
+            android:src="@mipmap/androidrobot"
+            app:border_color="#ffffff"
+            app:border_width="1dp" />
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dp"
+            android:background="@drawable/chatto_bg"
+            android:clickable="true"
+            android:gravity="center_vertical"
+            android:textIsSelectable="true"
+            android:textSize="15sp" />
+    </LinearLayout>
+</LinearLayout>

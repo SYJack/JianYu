@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:id="@+id/search_rankinglist_nums_layout"
+        android:layout_width="48dp"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/search_rankinglist_nums_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="01"
+            android:textColor="@color/darkgrey"
+            android:textSize="12sp"
+            android:textStyle="bold" />
+
+        <View
+            android:layout_width="0.1dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:background="@color/lightgrey" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/rangkingsong_listview_item_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/search_rankinglist_item_song"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="A Cute Cat"
+            android:textColor="@color/black" />
+
+        <TextView
+            android:id="@+id/search_rankinglist_item_artist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="A Cute Cat"
+            android:textColor="@color/darkgrey" />
+    </LinearLayout>
+
+</LinearLayout>

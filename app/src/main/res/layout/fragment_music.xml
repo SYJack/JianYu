@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/normal"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:id="@+id/rl_search_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@drawable/border_search_edittext">
+
+                        <ImageButton
+                            android:id="@+id/ib_search_imgbtn"
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginRight="3dp"
+                            android:background="@mipmap/ic_search_music"
+                            android:clickable="true" />
+
+                        <EditText
+                            android:id="@+id/et_search_content_edittext"
+                            android:layout_width="fill_parent"
+                            android:layout_height="35dp"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:layout_toLeftOf="@id/ib_search_imgbtn"
+                            android:background="@null"
+                            android:hint="@string/search_hint"
+                            android:singleLine="true"
+                            android:textColor="@color/darkgrey"
+                            android:textSize="14sp" />
+                    </RelativeLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.1dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:background="@color/colorPrimary" />
+                </RelativeLayout>
+
+
+                <com.jack.jianyu.widget.DisabledScrollGridView
+                    android:id="@+id/gv_search_rangking_gridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_search_layout"
+                    android:layout_margin="10dp"
+                    android:horizontalSpacing="10dp"
+                    android:listSelector="#00000000"
+                    android:numColumns="auto_fit"
+                    android:paddingBottom="10dp"
+                    android:scrollbars="none"
+                    android:stretchMode="columnWidth"
+                    android:verticalSpacing="10dp"
+                    android:visibility="visible" />
+
+                <LinearLayout
+                    android:id="@+id/search_result_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/rl_search_layout"
+                    android:orientation="vertical">
+
+                    <com.jack.jianyu.widget.DisabledScrollListView
+                        android:id="@+id/lv_search_result_song"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:descendantFocusability="blocksDescendants"
+                        android:visibility="gone" />
+                </LinearLayout>
+            </RelativeLayout>
+        </ScrollView>
+
+        <include
+            android:id="@+id/search_loading_layout"
+            layout="@layout/ll_loading_layout" />
+
+        <include
+            android:id="@+id/ll_error_layout"
+            layout="@layout/ll_loaderror_layout" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,366 @@
+[
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_full_alert_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_full_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_detail.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_detail.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_round.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_blue_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_round.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_white_round.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_titile_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_titile_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_bind_select_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_bind_select_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_composer_header.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_titile_bar_comment.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_titile_bar_comment.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_view.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_media.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_item_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_base_alert_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_base_alert_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_select_dialog_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_lines.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_lines.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_subheader.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_detail_nomap.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_detail_nomap.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_content.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_content.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_base_alert_dialog_button.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_base_alert_dialog_button.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_large.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_blue_large.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_up_container.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_chronometer.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_oauth_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_content_include.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_simple_dropdown_hint.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_simple_dropdown_hint.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\shake_umeng_socialize_share_dlg.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\shake_umeng_socialize_share_dlg.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_at_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_at_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_post_comment_platform.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_post_comment_platform.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_cancel_action.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_icon.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\layout_tab_icon.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_full_curtain.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_full_curtain.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_part_time.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_at_view.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_at_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_media_action.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_separator.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_dialog_title_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_facebook_login_activity_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_facebook_login_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_expanded_menu_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_actionbar.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_actionbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_alert_dialog_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_ucenter_platform_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_ucenter_platform_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\select_dialog_multichoice_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_bak_platform_item_simple.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_bak_platform_item_simple.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_bak_at_list.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_bak_at_list.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_post_share.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_post_share.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_failed_load_page.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_failed_load_page.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_shareboard_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_shareboard_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_activity_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\com_facebook_activity_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\layout_snackbar_include.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\layout_snackbar_include.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_more.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_more.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\shake_umeng_socialize_scrshot_snapshot.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\shake_umeng_socialize_scrshot_snapshot.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_login_fragment.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\com_facebook_login_fragment.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_bak_platform_selector_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_bak_platform_selector_dialog.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_small.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_white_small.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_icon.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_list_menu_item_radio.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_simple_spinner_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_simple_spinner_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_mode_bar.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_post_comment.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_post_comment.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_toolbar.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_action_bar_title_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_pull_to_refresh_header.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_pull_to_refresh_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\layout_tab_text.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\layout_tab_text.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_bak_at_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_bak_at_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_ucenter.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_ucenter.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_menu.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_blue_small.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_blue_small.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\com_facebook_tooltip_bubble.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\com_facebook_tooltip_bubble.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\layout_snackbar.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\layout_snackbar.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_at_overlay.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_at_overlay.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_full_alert_dialog_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_full_alert_dialog_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\messenger_button_send_white_large.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\messenger_button_send_white_large.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\notification_template_big_media_narrow.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\design_navigation_item_header.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\design\\22.2.1\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\release\\layout\\umeng_socialize_comment_view.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_comment_view.xml"
+    }
+]

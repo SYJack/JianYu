@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">简娱</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_clean_cache">清理缓存</string>
+    <string name="search_good_music_coming">正在加载...</string>
+
+    <string name="str_menu_daily_paper">日报</string>
+    <string name="str_menu_music">音乐</string>
+    <string name="str_menuduihua">对话</string>
+    <string name="str_menu_movies">电影</string>
+    <string name="search_hint">歌手名/歌曲名</string>
+    <string name="search_rankinglist_name">歌曲榜单</string>
+    <string name="str_rankinglist_oumeisong">欧美榜</string>
+    <string name="str_rankinglist_neidisong">内地榜</string>
+    <string name="str_rankinglist_gangtaisong">港台榜</string>
+    <string name="str_rankinglist_hanguosong">韩国榜</string>
+    <string name="str_rankinglist_ribensong">日本榜</string>
+    <string name="str_rankinglist_locksong">摇滚榜</string>
+    <string name="str_rankinglist_salesong">销量榜</string>
+    <string name="str_rankinglist_hotsong">热歌榜</string>
+    <string name="str_error_networt">没有可用的网络</string>
+
+    <string name="str_fragment_play_music">我的音乐</string>
+    <string name="listview_hotnews">今日热闻</string>
+
+    <string name="about_share_content">亲，我现在用的软件不错，去下载玩玩~</string>
+    <string name="about_share_title">hello, 简娱</string>
+</resources>

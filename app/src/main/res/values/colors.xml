@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="default_image_background">#FFDEDEDE</color>
+
+    <color name="colorPrimary">#03a9f4</color>
+    <color name="colorPrimaryDark">#03a9f4</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="normal">#FFF5F5F5</color>
+    <color name="green">#FF6B8E23</color>
+    <color name="darkgrey">#FF808080</color>
+    <color name="lightgrey">#FFDCDCDC</color>
+    <color name="black">#FF000000</color>
+
+    <color name="orangePrimary">#f57c00</color>
+    <color name="orangeMedium">#ef6c00</color>
+    <color name="orangeDark">#e65100</color>
+
+    <color name="pingPrimary">#ec407a</color>
+    <color name="pingMedium">#e91e63</color>
+    <color name="pingDark">#d81d60</color>
+
+    <color name="textInfo">#666666</color>
+</resources>
