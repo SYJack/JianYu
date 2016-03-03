@@ -20,7 +20,6 @@
     </style>
 
     <style name="AppTheme.TransparentActivity" parent="AppBaseTheme">
-        <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
         <item name="android:textColorPrimary">@android:color/white</item>
         <item name="android:textColorSecondary">@android:color/white</item>

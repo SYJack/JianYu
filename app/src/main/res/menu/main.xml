@@ -11,4 +11,9 @@
         android:orderInCategory="100"
         android:title="@string/action_clean_cache"
         app:showAsAction="never" />
+    <item
+        android:id="@+id/action_collect"
+        android:orderInCategory="100"
+        android:title="@string/action_menu_collect"
+        app:showAsAction="never" />
 </menu>

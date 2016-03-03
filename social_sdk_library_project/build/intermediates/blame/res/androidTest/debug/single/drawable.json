@@ -672,12 +672,12 @@
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_facebook.png"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_comment_icon.xml",
-        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_comment_icon.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_sidebar_selected.xml",
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_sidebar_selected.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_comment_icon.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\drawable\\umeng_socialize_comment_icon.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable\\umeng_socialize_title_back_bt_selected.png",

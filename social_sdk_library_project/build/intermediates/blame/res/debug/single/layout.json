@@ -96,20 +96,20 @@
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
-        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_oauth_dialog.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_post_share.xml",
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_post_share.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_oauth_dialog.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_oauth_dialog.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\umeng_socialize_composer_header.xml",
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\res\\layout\\umeng_socialize_composer_header.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\layout\\select_dialog_item_material.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\debug\\layout\\layout_snackbar.xml",

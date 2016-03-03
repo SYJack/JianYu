@@ -7,15 +7,18 @@ import java.util.List;
  * Created by jack on 2016/2/2.
  */
 public class StoriesEntity implements Serializable {
+
     private List<String> images;
 
     private int type;
 
-    private int id;
+    private long id;
 
     private String ga_prefix;
 
     private String title;
+
+    private String share_url;
 
     private String date;
 
@@ -58,7 +61,7 @@ public class StoriesEntity implements Serializable {
         this.id = id;
     }
 
-    public int getId() {
+    public long getId() {
         return this.id;
     }
 
@@ -78,4 +81,11 @@ public class StoriesEntity implements Serializable {
         return this.title;
     }
 
+    public String getShare_url() {
+        return share_url;
+    }
+
+    public void setShare_url(String share_url) {
+        this.share_url = share_url;
+    }
 }

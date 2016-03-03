@@ -46,13 +46,17 @@
             android:launchMode="singleTop"
             android:theme="@style/AppTheme.TransparentActivity" />
 
+        <activity
+            android:name=".ui.activity.FavoriteActivity"
+            android:label="@string/str_menu_correct"
+            android:theme="@style/AppTheme.TransparentActivity" />
+
         <service
             android:name=".playutils.MusicPlayService"
             android:exported="false"
             android:screenOrientation="portrait" />
 
-        <activity
-            android:name="com.umeng.fb.ConversationActivity"/>
+        <activity android:name="com.umeng.fb.ConversationActivity" />
 
         <!-- ###################注册SDK使用的Activity###################### -->
         <!--分享编辑页-->

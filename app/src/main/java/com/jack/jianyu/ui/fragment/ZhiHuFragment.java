@@ -9,6 +9,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.annotation.Nullable;
 import android.support.v4.widget.SwipeRefreshLayout;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.MotionEvent;
 import android.view.View;
@@ -102,7 +103,9 @@ public class ZhiHuFragment extends BaseFragment implements View.OnTouchListener,
     @Override
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+
         View view = inflater.inflate(R.layout.fragment_zhihu, container, false);
+
         ButterKnife.inject(this, view);
 
         setHeaderView();
@@ -162,6 +165,7 @@ public class ZhiHuFragment extends BaseFragment implements View.OnTouchListener,
                 topStories = newsBean.getTop_stories();
 
                 storiesEntities = newsBean.getStories();
+
                 date = newsBean.getDate();
                 handler.sendMessage(handler.obtainMessage(1));
             } catch (UnsupportedEncodingException e) {
@@ -268,6 +272,7 @@ public class ZhiHuFragment extends BaseFragment implements View.OnTouchListener,
     }
 
     private void parseBeforeJson(String responseString) {
+        Log.e("responseString", responseString);
         BeforeBean beforeBean = GsonUtil.getData(responseString, BeforeBean.class);
         if (beforeBean == null) {
             isLoading = false;

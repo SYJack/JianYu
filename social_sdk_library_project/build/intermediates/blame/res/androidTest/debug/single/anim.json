@@ -20,12 +20,12 @@
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\shake_umeng_socialize_dlg_scale.xml"
     },
     {
-        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
-        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_in.xml"
-    },
-    {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\shake_umeng_socialize_imageview_rotate.xml",
         "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\bundles\\debug\\res\\anim\\shake_umeng_socialize_imageview_rotate.xml"
+    },
+    {
+        "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\abc_fade_in.xml",
+        "source": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.2.1\\res\\anim\\abc_fade_in.xml"
     },
     {
         "merged": "E:\\AndroidStudioProjects\\JianYu\\social_sdk_library_project\\build\\intermediates\\res\\merged\\androidTest\\debug\\anim\\umeng_socialize_shareboard_animation_in.xml",

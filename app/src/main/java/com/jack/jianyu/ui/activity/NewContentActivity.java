@@ -1,14 +1,21 @@
 package com.jack.jianyu.ui.activity;
 
+import android.annotation.SuppressLint;
+import android.os.AsyncTask;
+import android.os.Build;
 import android.os.Bundle;
 import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.v7.widget.Toolbar;
+import android.text.TextUtils;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.widget.ImageView;
 
+import com.jack.jianyu.MyApplication;
 import com.jack.jianyu.R;
 import com.jack.jianyu.base.BaseActivity;
 import com.jack.jianyu.bean.StoriesEntity;
@@ -17,6 +24,8 @@ import com.jack.jianyu.constant.AppConstant;
 import com.jack.jianyu.utils.GsonUtil;
 import com.jack.jianyu.utils.ImageLoaderHelper;
 import com.jack.jianyu.utils.NetWorkUtils;
+import com.jack.jianyu.utils.ShareManager;
+import com.jack.jianyu.utils.ToastHelper;
 import com.jack.jianyu.utils.http.HttpUtils;
 import com.loopj.android.http.AsyncHttpResponseHandler;
 import com.nostra13.universalimageloader.core.ImageLoader;
@@ -53,12 +62,20 @@ public class NewContentActivity extends BaseActivity {
 
     private StoriesEntity storiesEntity = null;
 
+    private MenuItem mFavActionItem;
+
+    private Menu mOptionsMenu;
+
+    private boolean isInFavorite = false;
+
+    private long newsId;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_news_content_layout);
         ButterKnife.inject(this);
+
         storiesEntity = (StoriesEntity) getIntent().getSerializableExtra("zhihuBean");
         setSupportActionBar(toolbar);
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
@@ -68,7 +85,12 @@ public class NewContentActivity extends BaseActivity {
                 onBackPressed();
             }
         });
-        collapsingToolbarLayout.setTitle(storiesEntity.getTitle());
+//        collapsingToolbarLayout.setTitle(storiesEntity.getTitle());
+
+        newsId = storiesEntity.getId();
+
+        new FavoriteStatusGetTask().execute();
+
         setUpWebViewDefaults();
     }
 
@@ -114,5 +136,93 @@ public class NewContentActivity extends BaseActivity {
         webviewContent.loadDataWithBaseURL("x-data://base", html, "text/html", "UTF-8", null);
     }
 
+    @Override
+    protected void onResume() {
+        super.onResume();
+        updateCreateMenu();
+    }
 
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        mOptionsMenu = menu;
+        getMenuInflater().inflate(R.menu.activity_news_menu, menu);
+        mFavActionItem = menu.findItem(R.id.menu_item_fav_action_bar);
+        if (isInFavorite) {
+            mFavActionItem.setIcon(R.mipmap.collected);
+            mFavActionItem.setTitle("取消收藏");
+        } else {
+            mFavActionItem.setIcon(R.mipmap.collect);
+            mFavActionItem.setTitle("收藏成功");
+        }
+        return true;
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        switch (item.getItemId()) {
+            case R.id.menu_item_fav_action_bar:
+                if (isInFavorite) {
+                    MyApplication.getNewsFavoriteDataSource().deleteFromFavorite(String.valueOf(newsId));
+                    ToastHelper.showShort(this, "取消收藏");
+
+                    mFavActionItem.setIcon(R.mipmap.collect);
+                    mFavActionItem.setTitle("收藏");
+                    isInFavorite = false;
+                } else {
+                    String title = null, image = null, share_url = null;
+                    if (storiesEntity != null) {
+                        title = storiesEntity.getTitle();
+                        image = storiesEntity.getImages().get(0);
+                        share_url = storiesEntity.getShare_url();
+                    }
+
+                    if (!TextUtils.isEmpty(title) && !TextUtils.isEmpty(image)) {
+                        MyApplication.getNewsFavoriteDataSource().add2Favorite(String.valueOf(newsId), title,
+                                image, share_url);
+
+                        ToastHelper.showShort(this, "收藏成功");
+
+                        mFavActionItem.setIcon(R.mipmap.collected);
+                        mFavActionItem.setTitle("取消收藏");
+
+                        isInFavorite = true;
+                    } else {
+                        ToastHelper.showShort(this, "收藏失败");
+                    }
+                }
+                break;
+            case R.id.menu_item_share_action_provider_action_bar:
+                ShareManager.getInstance().popUmengShareDialog(this);
+                break;
+        }
+        return super.onOptionsItemSelected(item);
+    }
+
+    public class FavoriteStatusGetTask extends AsyncTask<Void, Void, Boolean> {
+
+
+        @Override
+        protected Boolean doInBackground(Void... params) {
+            return MyApplication.getNewsFavoriteDataSource().isInFavorite(String.valueOf(newsId));
+        }
+
+        @Override
+        protected void onPostExecute(Boolean result) {
+            super.onPostExecute(result);
+
+            isInFavorite = result;
+
+            updateCreateMenu();
+        }
+    }
+
+    @SuppressLint("NewApi")
+    private void updateCreateMenu() {
+        if (Build.VERSION.SDK_INT >= 11) {
+            invalidateOptionsMenu();
+        } else if (mOptionsMenu != null) {
+            mOptionsMenu.clear();
+            onCreateOptionsMenu(mOptionsMenu);
+        }
+    }
 }

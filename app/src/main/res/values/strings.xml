@@ -5,12 +5,14 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_clean_cache">清理缓存</string>
+    <string name="action_menu_collect">收藏夹</string>
+    <string name="action_menu_clean">清空</string>
     <string name="search_good_music_coming">正在加载...</string>
 
     <string name="str_menu_daily_paper">日报</string>
     <string name="str_menu_music">音乐</string>
     <string name="str_menuduihua">对话</string>
-    <string name="str_menu_movies">电影</string>
+    <string name="str_menu_correct">收藏夹</string>
     <string name="search_hint">歌手名/歌曲名</string>
     <string name="search_rankinglist_name">歌曲榜单</string>
     <string name="str_rankinglist_oumeisong">欧美榜</string>

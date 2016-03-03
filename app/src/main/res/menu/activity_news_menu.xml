@@ -1,4 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--  -->
+    <item
+        android:id="@+id/menu_item_fav_action_bar"
+        android:icon="@mipmap/collect"
+        android:title="收藏"
+        app:showAsAction="always" />
 
+    <item
+        android:id="@+id/menu_item_share_action_provider_action_bar"
+        android:icon="@mipmap/share"
+        android:title="分享"
+        app:showAsAction="always" />
 </menu>

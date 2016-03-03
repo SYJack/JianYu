@@ -228,9 +228,13 @@ public class MainActivity extends BaseActivity
 //            }.start();
             return true;
         }
+        if (id == R.id.action_collect) {
+            startActivity(new Intent(MainActivity.this, FavoriteActivity.class));
+            return true;
+        }
         if (id == R.id.action_playmusic) {
-            Intent intent = new Intent(this, PlayActivity.class);
-            startActivity(intent);
+            startActivity(new Intent(MainActivity.this, PlayActivity.class));
+            return true;
         }
 
         return super.onOptionsItemSelected(item);
